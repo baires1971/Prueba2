@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+
+    tools:context="com.ites.sanchez.prueba2.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/bienvenido"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/estilo_texto" />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="@string/entrar"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        style="@style/estilo_boton" />
+</RelativeLayout>
